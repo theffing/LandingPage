@@ -6,25 +6,36 @@
     background-color: #2E2963;
 
     display: flex;
+    justify-content: space-between;
     flex: 1;
     flex-direction: row;
-    gap: 15px;
-    justify-content: right;
 
     height: 50px;
 
     border-radius: 25px;
     padding: 15px;
+
+    margin: auto;
+}
+
+.headerLogo {
+    display: flex;
+}
+
+.headerLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
 }
 
 .navButton {
     width: 100px;
     border-radius: 25px;
 
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2);
 }
@@ -34,4 +45,16 @@
     text-decoration: none;
     font-weight: 700;
     font-size: 16pt;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #295E63;
+    width: 65%;
+
+    margin: 15px;
+    padding: 15px;
+    border-radius: 25px;
 }
